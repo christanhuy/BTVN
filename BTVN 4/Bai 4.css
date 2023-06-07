@@ -1,0 +1,26 @@
+table, tr, td{
+    border: 3px solid blue;
+    border-collapse: collapse;
+    text-align: center;
+}
+table{
+    width: 600px;
+    font-size: small;
+    font-weight: bold;
+}
+.first{
+    background-color: orange;
+    height: 120px;
+}
+.second{
+    height:120px;
+    background-color: rgb(20, 200, 20);
+}
+.third{
+    height: 120px;
+    background-color: green;
+}
+.fourth{
+    background-color: yellow;
+    height: 30px;
+}

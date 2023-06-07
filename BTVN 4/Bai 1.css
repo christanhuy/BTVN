@@ -1,0 +1,30 @@
+.login-sec{
+    width: 200px;
+    text-align: center;
+}
+p{
+    text-align: left;
+}
+input{
+    width:100%;
+}
+.forgot, .forgot p, a{
+    text-align: right;
+}
+.btn{
+    width: 100%;
+    background: blue;
+    color: white;
+    height: 30px;
+}
+.login-fb button{
+    width: 100%;
+    background: purple;
+    color: white;
+    height: 30px;
+    border-radius: 6px;
+}
+.login-click:active{
+    background-color: white;
+    color: black;
+}
