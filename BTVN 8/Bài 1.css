@@ -1,0 +1,60 @@
+body{
+    background: pink;
+    overflow: hidden;
+}
+.main{
+    position: relative;
+    width: 700px;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 30%;
+    margin-top: 20px;
+}
+.image{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.im{
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 30%;
+    opacity: 0.5;
+}
+.im:hover{
+    border: 10px solid green;
+    width: 90%;
+    height: 27.3%;
+    opacity: 1;
+}
+.bg1{
+    background-image: url('Bài 1.png');
+}
+.bg2{
+    background-image: url('Bài 1.jfif');
+}
+.bg3{
+    background-image: url('https://storage.googleapis.com/sticker-prod/68lFGTJuNITZ7RbCoQeZ/0.png');
+}
+.bg4{
+    background-image: url('https://shorturl.at/bDIL1');
+}
+.bg5{
+    background-image: url('https://shorturl.at/vxyP2');
+}
+.bg6{
+    background-image: url('https://shorturl.at/pvAQ1');
+}
+.bg7{
+    background-image: url('https://i.pinimg.com/550x/ec/7d/ae/ec7daec2b03a88a2a798efeef19b2b73.jpg');
+}
+.bg8{
+    background-image: url('https://shorturl.at/gqtLM');
+}
+.bg9{
+    background-image: url('Bài 1.jpg');
+}

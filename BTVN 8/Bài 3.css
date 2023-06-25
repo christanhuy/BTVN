@@ -1,0 +1,69 @@
+.main{
+    position: relative;
+}
+.car{
+    position: absolute;
+}
+img{
+    width: 6vw;
+}
+.object-1{
+    position: absolute;
+    left: 40vw;
+}
+.object-2{
+    position: absolute;
+    right: 20vw;
+    top: 10vw;
+}
+.object-3{
+    position: absolute;
+    top: 25vw;
+    left: 35vw;
+}
+.moving-car{
+    animation: carMove 5s linear infinite;
+    width: 15vw;
+}
+
+@keyframes carMove {
+    10%{
+        transform: translateX(160%) translateY(0%);
+    }
+    15%{
+        transform: translateX(190%) translateY(100%);
+    }
+    20%{
+        transform: translateX(260%) translateY(120%);
+    }
+    25%{
+        transform: translateX(370%) translateY(0%);
+    }
+    30%{
+        transform: translateX(500%) translateY(0%);
+    }
+    35%{
+        transform: translate(550%) translateY(150%);
+    }
+    40%{
+        transform: translateX(500%) translateY(350%);
+    }
+    55%{
+        transform: translateX(350%) translateY(250%);
+    }
+    60%{
+        transform: translate(200%) translateY(250%);
+    }
+    65%{
+        transform: translateX(100%) translateY(450%);
+    }
+    70%{
+        transform: translateX(100%) translateY(600%);
+    }
+    75%{
+        transform: translateX(300%) translateY(600%);
+    }
+    80%{
+        transform: translateX(400%) translateY(400%);
+    }
+}
